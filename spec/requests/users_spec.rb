@@ -44,7 +44,7 @@ describe "Users" do
 
     describe "failure" do
       it "should not sign a user in" do
-#        integration_sign_in()
+#        integration_sign_in() should work, but I can't figure out the syntax!!!
         visit signin_path
         fill_in :email,    :with => ""
         fill_in :password, :with => ""
